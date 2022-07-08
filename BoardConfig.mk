@@ -23,7 +23,7 @@
 # *not* include it on all devices, so it is safe even with hardware-specific
 # components.
 
-COMMON_PATH := device/oneplus/cheeseburger_dumpling
+COMMON_PATH := device/oneplus/dumpling
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -130,8 +130,8 @@ TW_EXCLUDE_TWRPAPP := true
 TW_HAS_EDL_MODE := true
 
 # Init properties from bootloader version
-TARGET_INIT_VENDOR_LIB := //$(COMMON_PATH):libinit_cheeseburger_dumpling
-TARGET_RECOVERY_DEVICE_MODULES := libinit_cheeseburger_dumpling
+TARGET_INIT_VENDOR_LIB := //$(COMMON_PATH):libinit_dumpling
+TARGET_RECOVERY_DEVICE_MODULES := libinit_dumpling
 
 # TWRP Debug Flags
 TWRP_INCLUDE_LOGCAT:= true

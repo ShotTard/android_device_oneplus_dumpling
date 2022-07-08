@@ -54,8 +54,8 @@ void vendor_load_properties()
 	switch (rf_version) {
 	/* OnePlus 5 */
 	case 53:
-		property_override("ro.product.model", "ONEPLUS A5000");
-		property_override("ro.product.device", "cheeseburger");
+		property_override("ro.product.model", "ONEPLUS A5010");
+		property_override("ro.product.device", "dumpling");
 		break;
 	/* OnePlus 5T */
 	case 21:
@@ -64,7 +64,7 @@ void vendor_load_properties()
 		break;
 	/* default to OnePlus 5 */
 	default:
-		property_override("ro.product.model", "ONEPLUS A5000");
-		property_override("ro.product.device", "cheeseburger");
+		property_override("ro.product.model", "ONEPLUS A5010");
+		property_override("ro.product.device", "dumpling");
 	}
 }
